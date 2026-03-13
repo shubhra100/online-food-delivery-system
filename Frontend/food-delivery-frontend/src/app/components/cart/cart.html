@@ -1,0 +1,43 @@
+<div class="container mt-4">
+
+<h3>Your Cart</h3>
+
+<div class="card p-3 mb-3" *ngFor="let item of cart">
+
+<div class="d-flex justify-content-between">
+
+<div>
+
+<h5>{{item.name}}</h5>
+
+<p>₹{{item.price}}</p>
+
+</div>
+
+<div>
+
+<button class="btn btn-outline-secondary">-</button>
+
+<span class="mx-2">{{item.quantity}}</span>
+
+<button class="btn btn-outline-secondary">+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="text-end">
+
+<h4>Total ₹{{total}}</h4>
+
+<button class="btn btn-success">
+
+Place Order
+
+</button>
+
+</div>
+
+</div>
