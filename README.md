@@ -3,7 +3,8 @@ Online Food Delivery System
 The Online Food Delivery System is a full-stack web application that allows customers to browse food items, place orders, and track order status. The system also includes an admin dashboard to manage menu items and monitor orders.
 
 This project is built using Angular (Frontend) and ASP.NET Core Web API (Backend) with Entity Framework and SQL Server for database management.
------------------
+
+---------------
 
 Technologies Used :
 Frontend
