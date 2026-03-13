@@ -92,39 +92,6 @@ Update Order Status
 
 ----------------
 
-API Endpoints:
-
-Authentication
-Customer Login
-POST /api/auth/login
-Admin Login
-POST /api/auth/admin-login
-Customer APIs
-Register Customer
-POST /api/customer/register
-Get Customers
-GET /api/customer
-Food Menu APIs
-Get Food Menu
-GET /api/food
-Add Food Item
-POST /api/food
-Update Food Item
-PUT /api/food/{id}
-Delete Food Item
-DELETE /api/food/{id}
-Order APIs
-Place Order
-POST /api/order
-Get Orders
-GET /api/order
-Update Order Status
-PUT /api/order/{id}/status
-Track Order
-GET /api/trackorder/{orderId}
-----------------
-
-
 Authentication:
 
 
