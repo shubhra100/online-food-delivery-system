@@ -1,0 +1,27 @@
+<div class="container mt-5">
+
+<h2 class="text-center mb-5">
+Track Order #{{orderId}}
+</h2>
+
+<div class="progress-container">
+
+<div 
+class="step"
+*ngFor="let step of steps; let i=index">
+
+<div 
+class="circle"
+[ngClass]="{'active': i<=currentStep}">
+
+{{i+1}}
+
+</div>
+
+<p>{{step}}</p>
+
+</div>
+
+</div>
+
+</div>
